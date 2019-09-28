@@ -1,0 +1,1454 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-09-15 03:39:59">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<application_name>Health Tracker</application_name>
+<application_scope>x_snc_ht</application_scope>
+<application_version>1.0.6</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>HealthTrackerCompare_CoreChanges</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>34516e92dbffff00fb0283fb689619f0</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>b17804d3dbb3b340fb0283fb6896190c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_ht_findings_compare_results</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="compare_results" table="x_snc_ht_findings"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Compare Results</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>compare_results</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>1000</max_length><name>x_snc_ht_findings</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-11 20:32:40</sys_created_on><sys_id>8de9cb8adbb73b003f36d65fdf961962</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Compare Results</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_dictionary_x_snc_ht_findings_compare_results</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-11 20:32:40</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-375558676</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>317804d3dbb3b340fb0283fb6896190d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d2564f40d0000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_findings</table>
+<target_name>HealthScan Findings.Compare Results</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>c5e9cb8aebb73b001942c3e45d6368c5</update_guid>
+<update_guid_history>c5e9cb8aebb73b001942c3e45d6368c5:-375558676</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_snc_ht_findings_instance_name_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation action="DELETE" element="instance_name" label="Instance Name" language="en" table="x_snc_ht_findings"><sys_documentation action="DELETE"><element>instance_name</element><help/><hint>expecting just the instance name. for example: empabuono</hint><label>Instance Name</label><language>en</language><name>x_snc_ht_findings</name><plural>Instance Names</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-11 20:45:09</sys_created_on><sys_id>33bc4b4edbb73b003f36d65fdf9619e7</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Instance Name</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_documentation_x_snc_ht_findings_instance_name_en</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-11 20:54:14</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>307094117</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>3178c4d3dbb3b340fb0283fb6896195d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d267180370000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_findings</table>
+<target_name>HealthScan Findings.instance_name</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>6174a3de377333408347830e14436f15</update_guid>
+<update_guid_history>6174a3de377333408347830e14436f15:307094117,b0de0fceb0b73b00727996ee84abe56e:950239421,c8cc8b4e2bb73b00288661b47fba1405:-1250437555</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_4fed4f4edbb73b003f36d65fdf961938</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>false</admin_overrides><advanced>false</advanced><condition/><description>Field is an allowed exception to the no-write.* rule.</description><name>x_snc_ht_findings.instance_name</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-11 20:50:18</sys_created_on><sys_id>4fed4f4edbb73b003f36d65fdf961938</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ht_findings.instance_name</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_security_acl_4fed4f4edbb73b003f36d65fdf961938</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-11 20:50:18</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1789484089</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>3178c4d3dbb3b340fb0283fb68961960</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d2564f42a0000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_findings.instance_name</table>
+<target_name>x_snc_ht_findings.instance_name</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>cfed4f4eb1b73b00edeb70c49f1a3d3a</update_guid>
+<update_guid_history>cfed4f4eb1b73b00edeb70c49f1a3d3a:1789484089</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_48d5bf941b7b6b00b759993d1d4bcbd8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Details" section_id="48d5bf941b7b6b00b759993d1d4bcbd8" sys_domain="global" table="x_snc_ht_findings" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:11:29</sys_created_on><sys_id>b765efdedb733340fb0283fb689619a8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Details" display_value="Details" name="x_snc_ht_findings" sys_domain="global" view="Default view">48d5bf941b7b6b00b759993d1d4bcbd8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:11:29</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>source_table</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:11:29</sys_created_on><sys_id>3b65efdedb733340fb0283fb689619a8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Details" display_value="Details" name="x_snc_ht_findings" sys_domain="global" view="Default view">48d5bf941b7b6b00b759993d1d4bcbd8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:11:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>source_value</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:11:29</sys_created_on><sys_id>bb65efdedb733340fb0283fb689619a8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Details" display_value="Details" name="x_snc_ht_findings" sys_domain="global" view="Default view">48d5bf941b7b6b00b759993d1d4bcbd8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:11:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>source_current_ver_src_display</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:11:29</sys_created_on><sys_id>3f65efdedb733340fb0283fb689619a8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Details" display_value="Details" name="x_snc_ht_findings" sys_domain="global" view="Default view">48d5bf941b7b6b00b759993d1d4bcbd8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:11:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:11:29</sys_created_on><sys_id>bf65efdedb733340fb0283fb689619a8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Details" display_value="Details" name="x_snc_ht_findings" sys_domain="global" view="Default view">48d5bf941b7b6b00b759993d1d4bcbd8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:11:29</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>source_base_file</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:11:29</sys_created_on><sys_id>3365efdedb733340fb0283fb689619a9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Details" display_value="Details" name="x_snc_ht_findings" sys_domain="global" view="Default view">48d5bf941b7b6b00b759993d1d4bcbd8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:11:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>source_sys_updated_by</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:11:29</sys_created_on><sys_id>b365efdedb733340fb0283fb689619a9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Details" display_value="Details" name="x_snc_ht_findings" sys_domain="global" view="Default view">48d5bf941b7b6b00b759993d1d4bcbd8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:11:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>source_sys_updated_on</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:11:29</sys_created_on><sys_id>3765efdedb733340fb0283fb689619a9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Details" display_value="Details" name="x_snc_ht_findings" sys_domain="global" view="Default view">48d5bf941b7b6b00b759993d1d4bcbd8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:11:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:11:29</sys_created_on><sys_id>b765efdedb733340fb0283fb689619a9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Details" display_value="Details" name="x_snc_ht_findings" sys_domain="global" view="Default view">48d5bf941b7b6b00b759993d1d4bcbd8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:11:29</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:11:29</sys_created_on><sys_id>3b65efdedb733340fb0283fb689619a9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Details" display_value="Details" name="x_snc_ht_findings" sys_domain="global" view="Default view">48d5bf941b7b6b00b759993d1d4bcbd8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:11:29</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>confirmed_closed_on</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:11:29</sys_created_on><sys_id>bb65efdedb733340fb0283fb689619a9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Details" display_value="Details" name="x_snc_ht_findings" sys_domain="global" view="Default view">48d5bf941b7b6b00b759993d1d4bcbd8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:11:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>absent_in_scan</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:11:29</sys_created_on><sys_id>3f65efdedb733340fb0283fb689619a9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Details" display_value="Details" name="x_snc_ht_findings" sys_domain="global" view="Default view">48d5bf941b7b6b00b759993d1d4bcbd8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:11:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:11:29</sys_created_on><sys_id>bf65efdedb733340fb0283fb689619a9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Details" display_value="Details" name="x_snc_ht_findings" sys_domain="global" view="Default view">48d5bf941b7b6b00b759993d1d4bcbd8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:11:29</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>closed_on</element><position>13</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:11:29</sys_created_on><sys_id>3365efdedb733340fb0283fb689619aa</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Details" display_value="Details" name="x_snc_ht_findings" sys_domain="global" view="Default view">48d5bf941b7b6b00b759993d1d4bcbd8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:11:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>14</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:11:29</sys_created_on><sys_id>b365efdedb733340fb0283fb689619aa</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Details" display_value="Details" name="x_snc_ht_findings" sys_domain="global" view="Default view">48d5bf941b7b6b00b759993d1d4bcbd8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:11:29</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>ignore_reason</element><position>15</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:11:29</sys_created_on><sys_id>3765efdedb733340fb0283fb689619aa</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Details" display_value="Details" name="x_snc_ht_findings" sys_domain="global" view="Default view">48d5bf941b7b6b00b759993d1d4bcbd8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:11:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>instance_to_compare</element><position>16</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:11:29</sys_created_on><sys_id>b765efdedb733340fb0283fb689619aa</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Details" display_value="Details" name="x_snc_ht_findings" sys_domain="global" view="Default view">48d5bf941b7b6b00b759993d1d4bcbd8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:11:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>compare_results</element><position>17</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:11:29</sys_created_on><sys_id>3b65efdedb733340fb0283fb689619aa</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Details" display_value="Details" name="x_snc_ht_findings" sys_domain="global" view="Default view">48d5bf941b7b6b00b759993d1d4bcbd8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:11:29</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Details</caption><header>false</header><name>x_snc_ht_findings</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>daniel.pettet</sys_created_by><sys_created_on>2019-02-19 17:04:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>48d5bf941b7b6b00b759993d1d4bcbd8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Details</sys_name><sys_overrides/><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_ui_section_48d5bf941b7b6b00b759993d1d4bcbd8</sys_update_name><sys_updated_by>daniel.pettet</sys_updated_by><sys_updated_on>2019-02-19 17:04:03</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-767343958</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>3178c4d3dbb3b340fb0283fb68961963</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d2675618a0000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_findings</table>
+<target_name>HealthScan Findings</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>7b65efdea87333405664ac7d71a601ad</update_guid>
+<update_guid_history>7b65efdea87333405664ac7d71a601ad:-767343958,017e87ce7cb73b00b819ea58647d7301:-212768732,4ccc8b4eccb73b0099dca465f6d6c919:-370875282,c9e9cb8a4ab73b00175a8f56879c98cb:1790084293,795768b119bfb700bcc369cb16ea998a:1339878140,bddf58909c1bf300b8958405400dc9c6:1339878140</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_ht_servicenow_instances_to_compare_password</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="DELETE" element="password" table="x_snc_ht_servicenow_instances_to_compare"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Password</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>password</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="">password</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_snc_ht_servicenow_instances_to_compare</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:01:03</sys_created_on><sys_id>f6036f5edb733340fb0283fb689619d2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Password</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_dictionary_x_snc_ht_servicenow_instances_to_compare_password</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:01:03</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1533913350</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>3578c4d3dbb3b340fb0283fb6896195c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d28982a750000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>ServiceNow Instances to Compare.password</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>dc2e2de6b6f73340c66f56fe533ac204</update_guid>
+<update_guid_history>dc2e2de6b6f73340c66f56fe533ac204:1533913350,3203239e5c733340207eb2328af8484a:-2060100117</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_d22a4856dbbb3b003f36d65fdf9619e5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-12 01:13:28</sys_created_on><sys_id>d22a4856dbbb3b003f36d65fdf9619e5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ScriptableRESTMessageClient.setHttpMethod</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_scope_privilege_d22a4856dbbb3b003f36d65fdf9619e5</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-12 01:13:28</sys_updated_on><target_name>ScriptableRESTMessageClient.setHttpMethod</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>-633238379</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>3578c4d3dbb3b340fb0283fb6896195f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d2564f4560000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table/>
+<target_name>ScriptableRESTMessageClient.setHttpMethod</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>122a4856bbbb3b007d8e8bcc0e467ce6</update_guid>
+<update_guid_history>122a4856bbbb3b007d8e8bcc0e467ce6:-633238379</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_aa458052dbbb3b003f36d65fdf961974</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;compare_finding&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;current.source_current_ver_src_display!=''&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;name&gt;Compare Finding&lt;/name&gt;&lt;onclick&gt;compareFinding()&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function compareFinding(){
+	//Set the 'Incident state' and 'State' values to 'Resolved', and display mandatory fields
+	g_form.setMandatory('instance_to_compare',true);
+	
+	if(g_form.getValue('instance_to_compare')!=''){
+		
+		gsftSubmit(null, g_form.getFormElement(), 'compare_finding'); //MUST call the 'Action name' set in this UI Action
+	}
+}
+
+if (typeof window == 'undefined')
+	compareAPI();
+
+function compareAPI(){
+	//gs.info("API Code has started");
+	var request = new sn_ws.RESTMessageV2();
+	
+	
+	
+	var UpSet = current.source_current_ver_src_display.replace("Update Set: ", "");
+	//gs.info("Update SET1:" + UpSet);
+	UpSet = encodeURIComponent(UpSet);
+	var SD = encodeURIComponent(current.source_display);
+	var ApiURL = 'https://'+current.instance_to_compare.instance+'.service-now.com/api/x_snc_ht/healthtrackercompare/HealthTrackerCompareUpdateSet/'+UpSet+'/'+SD;
+	request.setEndpoint(ApiURL);
+	request.setHttpMethod('GET');
+	
+	//Eg. UserName="admin", Password="admin" for this code sample.
+	var user = current.instance_to_compare.username;
+	var password = current.instance_to_compare.user_password.getDecryptedValue();
+	
+	request.setBasicAuth(user,password);
+	request.setRequestHeader("Accept","application/json");
+	
+	var response = request.execute();
+	//gs.info("API Code has started response body: " + response.getBody());
+	current.compare_results=response.getBody();
+	current.update();
+	action.setRedirectURL(current);
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;austin.buono&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-12 01:12:26&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;aa458052dbbb3b003f36d65fdf961974&lt;/sys_id&gt;&lt;sys_mod_count&gt;31&lt;/sys_mod_count&gt;&lt;sys_name&gt;Compare Finding&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Health Tracker" source="x_snc_ht"&gt;22c176c31baf6700e1de11fc2d4bcb38&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Health Tracker"&gt;22c176c31baf6700e1de11fc2d4bcb38&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_aa458052dbbb3b003f36d65fdf961974&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;austin.buono&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-15 03:37:32&lt;/sys_updated_on&gt;&lt;table&gt;x_snc_ht_findings&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-14270367</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>3578c4d3dbb3b340fb0283fb68961962</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d32ff42c10000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_findings</table>
+<target_name>Compare Finding</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>f5e7cc9398b3b3402c2918c9b1a576fb</update_guid>
+<update_guid_history>f5e7cc9398b3b3402c2918c9b1a576fb:-14270367,0f4b4ebeeeb37340f59a984029acff34:-458357993,845a82bea5b373406e5c7c379c15776e:1486470777,7e7902be34b37340c64460222d42418d:-235463029,107546faa4b37340308784a24b188a5a:2008168491,c66582fa21b373401882e13cca23e402:-352220405,112542fa61b37340085412e6e84442fa:1971240180,eaa442ba8ab37340d2e58b8dd2aee0ea:618835375,52134a7ad3b37340cd719f43c7db3abe:1954006509,d3d2067a06b373403663b3cc366c2a84:1897240791,c4a2427adab37340e7cb4abee48cbbc5:1542693197,de728e3a5fb373408207666d9f1d2808:-993155050,5b32c63a53b37340388747c743a745fc:-263002311,5861cef6ebb37340c391f42ea49bae10:-1005062944,b921caf66db37340fbb0b701556e02ef:-709945884,4f118af63eb373406ebba62e8a29e828:557383248,cff0c2b6f2b3734014263a29a474cf56:317470296,0abe397648b373401f1a9b5725fa9a1e:192305382,fbfbbdf248b373402fcbb80aced3e04e:1694955225,8c7b79f26cb373409615221204de6aa0:1138044420,dbbd6d66b6f73340cb260e4e851a19a2:590568193,6302e9eedfb7334094f454709bc76de5:-678251716,b3d1e9ee8db733406dd828ae1ff43e46:1409062346,55d0edae6eb73340db5467632d249315:-627962155,b0da531a6c7333404130c71eba076133:813315292,b580aade9bb37b0059c8444d68219a18:763585861,94d8d4d2bafb3b0026b6863842eb59a5:1698050457,84d6d852dbfb3b006d74187ced935e52:-1848458688,d3bdc05a0cbb3b003dd5ea4c8840bc76:1999214214,52fc88d692bb3b00b31ad4f21b5476c8:-51093726,73fa8096afbb3b0017962aaa93aff542:-1773097984,c3e94056d6bb3b000f24862e879090a6:210874043</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_snc_ht_servicenow_instances_to_compare__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="ServiceNow Instances to Compare" language="en" table="x_snc_ht_servicenow_instances_to_compare"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>ServiceNow Instances to Compare</label><language>en</language><name>x_snc_ht_servicenow_instances_to_compare</name><plural>ServiceNow Instances to Compares</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 16:28:35</sys_created_on><sys_id>1b9bdf1adb733340fb0283fb68961925</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ServiceNow Instances to Compare</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_documentation_x_snc_ht_servicenow_instances_to_compare__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 16:28:35</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-2017868511</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>3978c4d3dbb3b340fb0283fb6896195e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d264e1b410000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>ServiceNow Instances to Compare</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>1b9bdf1ab5733340e76cbdb751d58135</update_guid>
+<update_guid_history>1b9bdf1ab5733340e76cbdb751d58135:-2017868511</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_139bdf1adb733340fb0283fb68961911</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 16:28:35</sys_created_on><sys_id>139bdf1adb733340fb0283fb68961911</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ht_servicenow_instances_to_compare.x_snc_ht.user</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_security_acl display_value="x_snc_ht_servicenow_instances_to_compare">579bdf1adb733340fb0283fb6896190e</sys_security_acl><sys_update_name>sys_security_acl_role_139bdf1adb733340fb0283fb68961911</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 16:28:35</sys_updated_on><sys_user_role display_value="x_snc_ht.user" name="x_snc_ht.user">f6bc9fbc1bc4f340b759993d1d4bcbe2</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1370333902</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>3978c4d3dbb3b340fb0283fb68961961</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d264e19460000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>x_snc_ht_servicenow_instances_to_compare.x_snc_ht.user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>9f9bdf1a6373334040f9844a89bc1812</update_guid>
+<update_guid_history>9f9bdf1a6373334040f9844a89bc1812:-1370333902</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_ht_findings_username</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="DELETE" element="username" table="x_snc_ht_findings"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Username</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>username</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_snc_ht_findings</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-11 20:45:09</sys_created_on><sys_id>bbbc4b4edbb73b003f36d65fdf96191a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Username</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_dictionary_x_snc_ht_findings_username</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-11 20:45:09</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1376411339</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>3d7804d3dbb3b340fb0283fb6896190d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d2671a3410000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_findings</table>
+<target_name>HealthScan Findings.username</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>ff74e3dea0733340d38514d147e44792</update_guid>
+<update_guid_history>ff74e3dea0733340d38514d147e44792:1376411339,c0cc8b4e66b73b00b4b1bf1cad34e203:-1761433256</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_snc_ht_servicenow_instances_to_compare_instance_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="instance" label="Instance" language="en" table="x_snc_ht_servicenow_instances_to_compare"><sys_documentation action="INSERT_OR_UPDATE"><element>instance</element><help/><hint/><label>Instance</label><language>en</language><name>x_snc_ht_servicenow_instances_to_compare</name><plural>Instances</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:00:06</sys_created_on><sys_id>b0d22f5edb733340fb0283fb6896195f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Instance</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_documentation_x_snc_ht_servicenow_instances_to_compare_instance_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:00:06</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>610614347</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>3d78c4d3dbb3b340fb0283fb6896195d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d266af4260000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>ServiceNow Instances to Compare.Instance</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>b8d22f5ea973334070f4414d63c61e6e</update_guid>
+<update_guid_history>b8d22f5ea973334070f4414d63c61e6e:610614347</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_792ecf8edbb73b003f36d65fdf9619cc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>false</admin_overrides><advanced>false</advanced><condition/><description>Field is an allowed exception to the no-write.* rule.</description><name>x_snc_ht_findings.username</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-11 20:51:18</sys_created_on><sys_id>792ecf8edbb73b003f36d65fdf9619cc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ht_findings.username</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_security_acl_792ecf8edbb73b003f36d65fdf9619cc</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-11 20:51:18</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-540884437</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>3d78c4d3dbb3b340fb0283fb68961960</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d2564f42f0000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_findings.username</table>
+<target_name>x_snc_ht_findings.username</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>f92ecf8ea2b73b000742800432afadce</update_guid>
+<update_guid_history>f92ecf8ea2b73b000742800432afadce:-540884437</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_5b9bdf1adb733340fb0283fb68961931</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_snc_ht_servicenow_instances_to_compare</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 16:28:35</sys_created_on><sys_id>5b9bdf1adb733340fb0283fb68961931</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ht_servicenow_instances_to_compare</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>ua_table_licensing_config_5b9bdf1adb733340fb0283fb68961931</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 16:28:35</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<payload_hash>502309560</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>3d78c4d3dbb3b340fb0283fb68961963</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d264e1b100000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table/>
+<target_name>x_snc_ht_servicenow_instances_to_compare</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>db9bdf1a627333408ad883b0ae0f1a32</update_guid>
+<update_guid_history>db9bdf1a627333408ad883b0ae0f1a32:502309560</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_ht_servicenow_instances_to_compare_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_snc_ht_servicenow_instances_to_compare"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_snc_ht_servicenow_instances_to_compare&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-12 16:28:35&lt;/sys_created_on&gt;&lt;sys_id&gt;579bdf1adb733340fb0283fb6896191e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_snc_ht_servicenow_instances_to_compare&lt;/sys_name&gt;&lt;sys_package display_value="Health Tracker" source="x_snc_ht"&gt;22c176c31baf6700e1de11fc2d4bcb38&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Health Tracker"&gt;22c176c31baf6700e1de11fc2d4bcb38&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_snc_ht_servicenow_instances_to_compare_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-12 16:28:35&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-142030343</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>7178c4d3dbb3b340fb0283fb6896195c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d264e1b2e0000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>ServiceNow Instances to Compare</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>579bdf1a60733340dd512c1b5a479434</update_guid>
+<update_guid_history>579bdf1a60733340dd512c1b5a479434:-142030343</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_5e2a4856dbbb3b003f36d65fdf9619e6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-12 01:13:28</sys_created_on><sys_id>5e2a4856dbbb3b003f36d65fdf9619e6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ScriptableRESTMessageClient.setBasicAuth</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_scope_privilege_5e2a4856dbbb3b003f36d65fdf9619e6</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-12 01:13:28</sys_updated_on><target_name>ScriptableRESTMessageClient.setBasicAuth</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>-1023809503</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>7178c4d3dbb3b340fb0283fb6896195f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d2564f45b0000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table/>
+<target_name>ScriptableRESTMessageClient.setBasicAuth</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>9a2a485618bb3b00d8de1b4daa753ce7</update_guid>
+<update_guid_history>9a2a485618bb3b00d8de1b4daa753ce7:-1023809503</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_979bdf1adb733340fb0283fb68961916</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 16:28:35</sys_created_on><sys_id>979bdf1adb733340fb0283fb68961916</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ht_servicenow_instances_to_compare.x_snc_ht.user</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_security_acl display_value="x_snc_ht_servicenow_instances_to_compare">db9bdf1adb733340fb0283fb68961913</sys_security_acl><sys_update_name>sys_security_acl_role_979bdf1adb733340fb0283fb68961916</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 16:28:35</sys_updated_on><sys_user_role display_value="x_snc_ht.user" name="x_snc_ht.user">f6bc9fbc1bc4f340b759993d1d4bcbe2</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1371275205</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>7178c4d3dbb3b340fb0283fb68961962</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d264e197d0000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>x_snc_ht_servicenow_instances_to_compare.x_snc_ht.user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>179bdf1a957333407c685bf5906d3d18</update_guid>
+<update_guid_history>179bdf1a957333407c685bf5906d3d18:-1371275205</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_snc_ht_servicenow_instances_to_compare_user_password_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="user_password" label="User Password" language="en" table="x_snc_ht_servicenow_instances_to_compare"><sys_documentation action="INSERT_OR_UPDATE"><element>user_password</element><help/><hint/><label>User Password</label><language>en</language><name>x_snc_ht_servicenow_instances_to_compare</name><plural>User Passwords</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-13 03:09:09</sys_created_on><sys_id>a23e6de6dbf73340fb0283fb6896196f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User Password</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_documentation_x_snc_ht_servicenow_instances_to_compare_user_password_en</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-13 03:09:09</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-984860049</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>7578c4d3dbb3b340fb0283fb6896195e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d289890290000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>ServiceNow Instances to Compare.User Password</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>ae3e6de623f7334068ff349aea3ac384</update_guid>
+<update_guid_history>ae3e6de623f7334068ff349aea3ac384:-984860049</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_db9bdf1adb733340fb0283fb68961913</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_snc_ht_servicenow_instances_to_compare</description><name>x_snc_ht_servicenow_instances_to_compare</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 16:28:35</sys_created_on><sys_id>db9bdf1adb733340fb0283fb68961913</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ht_servicenow_instances_to_compare</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_security_acl_db9bdf1adb733340fb0283fb68961913</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 16:28:35</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1287496157</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>7578c4d3dbb3b340fb0283fb68961961</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d264e19610000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>x_snc_ht_servicenow_instances_to_compare</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>5b9bdf1a2a7333408bc6991db540ba15</update_guid>
+<update_guid_history>5b9bdf1a2a7333408bc6991db540ba15:1287496157</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_ht_findings_password</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="DELETE" element="password" table="x_snc_ht_findings"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Password</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>password</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_snc_ht_findings</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-11 20:45:09</sys_created_on><sys_id>b3bc4b4edbb73b003f36d65fdf9619e9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Password</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_dictionary_x_snc_ht_findings_password</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-11 20:45:09</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>138791841</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>797804d3dbb3b340fb0283fb6896190d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d2671c9fd0000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_findings</table>
+<target_name>HealthScan Findings.password</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>d68467de9c733340113991b059d2594e</update_guid>
+<update_guid_history>d68467de9c733340113991b059d2594e:138791841,48cc8b4ee7b73b00d003cb4c9513cc04:-407941928</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_snc_ht_findings_username_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation action="DELETE" element="username" label="Username" language="en" table="x_snc_ht_findings"><sys_documentation action="DELETE"><element>username</element><help/><hint>User that will execute REST call.  Must have proper rights.</hint><label>Username</label><language>en</language><name>x_snc_ht_findings</name><plural>Usernames</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-11 20:45:09</sys_created_on><sys_id>73bc4b4edbb73b003f36d65fdf9619e3</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Username</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_documentation_x_snc_ht_findings_username_en</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-11 20:54:51</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-603000481</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>7978c4d3dbb3b340fb0283fb6896195d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d2671a2b70000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_findings</table>
+<target_name>HealthScan Findings.username</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>3f74e3de9c733340e2f1010f482e348a</update_guid>
+<update_guid_history>3f74e3de9c733340e2f1010f482e348a:-603000481,71fec7ce74b73b0027ad9780d1ed15cf:-1316398777,cccc8b4e7db73b0001ba167def18e906:1149283189</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_5b9bdf1adb733340fb0283fb68961907</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_snc_ht_servicenow_instances_to_compare</description><name>x_snc_ht_servicenow_instances_to_compare</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 16:28:35</sys_created_on><sys_id>5b9bdf1adb733340fb0283fb68961907</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ht_servicenow_instances_to_compare</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_security_acl_5b9bdf1adb733340fb0283fb68961907</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 16:28:35</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>590146381</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>7978c4d3dbb3b340fb0283fb68961960</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d264e18dd0000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>x_snc_ht_servicenow_instances_to_compare</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>179bdf1afa73334012b841940c3a790a</update_guid>
+<update_guid_history>179bdf1afa73334012b841940c3a790a:590146381</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_operation_91260853dbb3b340fb0283fb689619c4</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri/&gt;&lt;enforce_acl&gt;cf9d01d3e73003009d6247e603f6a990&lt;/enforce_acl&gt;&lt;http_method&gt;GET&lt;/http_method&gt;&lt;name&gt;HealthTrackerCompareUpdateSet&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+    var patterns = [];
+
+    var updateSetName = request.pathParams.name;
+	var healthFinding = request.pathParams.finding;
+
+    var UpdateSetSysID = new GlideRecord('sys_update_set');
+    UpdateSetSysID.addQuery('name', updateSetName);
+    UpdateSetSysID.query();
+    if (UpdateSetSysID.next()) {
+var HealthTrackerInterrogate = new GlideRecord('x_snc_ht_findings');
+		HealthTrackerInterrogate.addQuery('source_display',healthFinding);
+		HealthTrackerInterrogate.addQuery('source_current_ver_src_display','CONTAINS',updateSetName);
+		HealthTrackerInterrogate.query();
+		if(HealthTrackerInterrogate.next()){
+		
+		patterns.push({
+            state: HealthTrackerInterrogate.getDisplayValue('state'),
+			ignore_reason: HealthTrackerInterrogate.getValue('ignore_reason'),
+
+        });
+			
+			//Continuned code
+			
+		}else{
+			
+			patterns.push({
+            error: 'NO Scan has been Run on offending Update set',
+
+        });
+			
+		}
+
+    } else {
+        patterns.push({
+            error: 'Update Set NOT FOUND',
+
+        });
+    }
+
+    return patterns;
+
+
+})(request, response);]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/x_snc_ht/healthtrackercompare/HealthTrackerCompareUpdateSet/{name}/{finding}&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/HealthTrackerCompareUpdateSet/{name}/{finding}&lt;/relative_path&gt;&lt;request_example/&gt;&lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;true&lt;/requires_authentication&gt;&lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;austin.buono&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-15 03:31:57&lt;/sys_created_on&gt;&lt;sys_id&gt;91260853dbb3b340fb0283fb689619c4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;HealthTrackerCompareUpdateSet&lt;/sys_name&gt;&lt;sys_package display_value="Health Tracker" source="x_snc_ht"&gt;22c176c31baf6700e1de11fc2d4bcb38&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Health Tracker"&gt;22c176c31baf6700e1de11fc2d4bcb38&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_91260853dbb3b340fb0283fb689619c4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;austin.buono&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-15 03:31:57&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="HealthTrackerCompare"&gt;a6b5c053dbb3b340fb0283fb689619ed&lt;/web_service_definition&gt;&lt;web_service_version/&gt;&lt;/sys_ws_operation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-110205132</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>7978c4d3dbb3b340fb0283fb68961963</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d32fa26600000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table/>
+<target_name>HealthTrackerCompareUpdateSet</target_name>
+<type>Scripted REST Resource</type>
+<update_domain>global</update_domain>
+<update_guid>04a6c45366b3b340482004a3bfa85df4</update_guid>
+<update_guid_history>04a6c45366b3b340482004a3bfa85df4:-110205132</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_346b1f1adb733340fb0283fb68961993</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>ServiceNow Instances to Compare</label><live_feed_enabled>false</live_feed_enabled><name>x_snc_ht_servicenow_instances_to_compare</name><number_ref/><provider_class/><read_access>true</read_access><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 16:28:35</sys_created_on><sys_id>346b1f1adb733340fb0283fb68961993</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ServiceNow Instances to Compare</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_db_object_346b1f1adb733340fb0283fb68961993</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 16:28:35</sys_updated_on><update_access>false</update_access><user_role display_value="x_snc_ht.user" name="x_snc_ht.user">f6bc9fbc1bc4f340b759993d1d4bcbe2</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>1814425578</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>7d7804d3dbb3b340fb0283fb6896190c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d264e1b4e0000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>ServiceNow Instances to Compare</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>5b9bdf1aea7333405682a05240a62336</update_guid>
+<update_guid_history>5b9bdf1aea7333405682a05240a62336:1814425578</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_snc_ht_findings_compare_results_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="compare_results" label="Compare Results" language="en" table="x_snc_ht_findings"><sys_documentation action="INSERT_OR_UPDATE"><element>compare_results</element><help/><hint/><label>Compare Results</label><language>en</language><name>x_snc_ht_findings</name><plural>Compare Results</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-11 20:32:40</sys_created_on><sys_id>85e9cb8adbb73b003f36d65fdf9619bb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Compare Results</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_documentation_x_snc_ht_findings_compare_results_en</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-11 20:32:40</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-173399834</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>7d78c4d3dbb3b340fb0283fb6896195c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d2564f4140000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_findings</table>
+<target_name>HealthScan Findings.Compare Results</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>89e9cb8a11b73b00cf85536c05633ec6</update_guid>
+<update_guid_history>89e9cb8a11b73b00cf85536c05633ec6:-173399834</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_204ecf8edbb73b003f36d65fdf9619ee</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>false</admin_overrides><advanced>false</advanced><condition/><description>Field is an allowed exception to the no-write.* rule.</description><name>x_snc_ht_findings.password</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-11 20:51:46</sys_created_on><sys_id>204ecf8edbb73b003f36d65fdf9619ee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ht_findings.password</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_security_acl_204ecf8edbb73b003f36d65fdf9619ee</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-11 20:51:46</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-34561077</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>7d78c4d3dbb3b340fb0283fb6896195f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d2564f4340000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_findings.password</table>
+<target_name>x_snc_ht_findings.password</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>a04ecf8ebfb73b00c52df43fe62da6f0</update_guid>
+<update_guid_history>a04ecf8ebfb73b00c52df43fe62da6f0:-34561077</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_0f9b1f1adb733340fb0283fb689619af</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Health Tracker">16e4a32a1bf76f00e1de11fc2d4bcb05</application><filter/><name>ServiceNow Instances to Compares</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_snc_ht.user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 16:28:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0f9b1f1adb733340fb0283fb689619af</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ServiceNow Instances to Compares</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_ui_module_0f9b1f1adb733340fb0283fb689619af</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 16:28:35</sys_updated_on><table>x_snc_ht_servicenow_instances_to_compare</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>52807830</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>7d78c4d3dbb3b340fb0283fb68961962</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d264e18900000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>ServiceNow Instances to Compares</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>4b9bdf1a41733340f299f28d83270406</update_guid>
+<update_guid_history>4b9bdf1a41733340f299f28d83270406:52807830</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_snc_ht_servicenow_instances_to_compare_username_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="username" label="Username" language="en" table="x_snc_ht_servicenow_instances_to_compare"><sys_documentation action="INSERT_OR_UPDATE"><element>username</element><help/><hint/><label>Username</label><language>en</language><name>x_snc_ht_servicenow_instances_to_compare</name><plural>Usernames</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:00:06</sys_created_on><sys_id>bcd22f5edb733340fb0283fb68961962</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Username</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_documentation_x_snc_ht_servicenow_instances_to_compare_username_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:00:06</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1100672201</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>b178c4d3dbb3b340fb0283fb6896195e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d266af4310000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>ServiceNow Instances to Compare.Username</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>7cd22f5e4273334011a592d0a293466f</update_guid>
+<update_guid_history>7cd22f5e4273334011a592d0a293466f:1100672201</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_af97c70adbb73b003f36d65fdf9619c9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>false</admin_overrides><advanced>false</advanced><condition table="x_snc_ht_scan_instance.most_recent">scan_type=sprint_scan^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description>Default access control on x_snc_ht_scan_instance</description><name>x_snc_ht_scan_instance.most_recent</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-11 20:22:44</sys_created_on><sys_id>af97c70adbb73b003f36d65fdf9619c9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ht_scan_instance.most_recent</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_security_acl_af97c70adbb73b003f36d65fdf9619c9</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-11 20:22:44</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1771028332</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>b178c4d3dbb3b340fb0283fb68961961</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d2564f4070000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_scan_instance.most_recent</table>
+<target_name>x_snc_ht_scan_instance.most_recent</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>e397c70aebb73b00c38ccd29bc679fcd</update_guid>
+<update_guid_history>e397c70aebb73b00c38ccd29bc679fcd:-1771028332</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_039b1f1adb733340fb0283fb689619ad</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Health Tracker">71f1f2071baf6700e1de11fc2d4bcba4</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>ServiceNow Instances to Compares</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_snc_ht_servicenow_instances_to_compare</name><order>1150</order><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_snc_ht.user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 16:28:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>039b1f1adb733340fb0283fb689619ad</sys_id><sys_mod_count>2</sys_mod_count><sys_name>ServiceNow Compare Instances</sys_name><sys_overrides/><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_app_module_039b1f1adb733340fb0283fb689619ad</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 16:58:54</sys_updated_on><timeline_page/><title>ServiceNow Compare Instances</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>1461442686</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>b57804d3dbb3b340fb0283fb6896190c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d2669dc7d0000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>ServiceNow Compare Instances</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>1382e75e7a73334084d0ed6a824e9a86</update_guid>
+<update_guid_history>1382e75e7a73334084d0ed6a824e9a86:1461442686,7c72275e01733340ba8ba036b09186a8:-1155042973,0f9b1f1afc73334040037fdbc5e1e8ae:-823382493</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_ht_findings_instance_to_compare</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="instance_to_compare" table="x_snc_ht_findings"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Instance to Compare</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>instance_to_compare</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>x_snc_ht_findings</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="x_snc_ht_servicenow_instances_to_compare">x_snc_ht_servicenow_instances_to_compare</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:11:29</sys_created_on><sys_id>a765efdedb733340fb0283fb68961998</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Instance to Compare</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_dictionary_x_snc_ht_findings_instance_to_compare</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:11:29</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>1304616031</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>b57804d3dbb3b340fb0283fb6896190d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d267561340000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_findings</table>
+<target_name>HealthScan Findings.Instance to Compare</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>bb65efde0f733340abf8390bfec2aca6</update_guid>
+<update_guid_history>bb65efde0f733340abf8390bfec2aca6:1304616031</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_snc_ht_findings_password_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation action="DELETE" element="password" label="Password" language="en" table="x_snc_ht_findings"><sys_documentation action="DELETE"><element>password</element><help/><hint>Password of user that will be executing REST call.</hint><label>Password</label><language>en</language><name>x_snc_ht_findings</name><plural>Passwords</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-11 20:45:09</sys_created_on><sys_id>ffbc4b4edbb73b003f36d65fdf9619ea</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Password</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_documentation_x_snc_ht_findings_password_en</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-11 20:55:34</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1632454661</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>b578c4d3dbb3b340fb0283fb6896195d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d2671c9620000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_findings</table>
+<target_name>HealthScan Findings.password</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>168467dec27333404a9becfdfdb85b46</update_guid>
+<update_guid_history>168467dec27333404a9becfdfdb85b46:1632454661,982fcfcedbb73b00017201f20efe7261:1031054109,88cc8b4e59b73b003588743c7b375b14:-207572565</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_579bdf1adb733340fb0283fb6896190e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_snc_ht_servicenow_instances_to_compare</description><name>x_snc_ht_servicenow_instances_to_compare</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 16:28:35</sys_created_on><sys_id>579bdf1adb733340fb0283fb6896190e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ht_servicenow_instances_to_compare</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_security_acl_579bdf1adb733340fb0283fb6896190e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 16:28:35</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-995257831</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>b578c4d3dbb3b340fb0283fb68961960</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d264e192c0000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>x_snc_ht_servicenow_instances_to_compare</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>d39bdf1af9733340ad657022b36a4910</update_guid>
+<update_guid_history>d39bdf1af9733340ad657022b36a4910:-995257831</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_definition_a6b5c053dbb3b340fb0283fb689619ed</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition"><sys_ws_definition action="INSERT_OR_UPDATE"><active>true</active><base_uri>/api/x_snc_ht/healthtrackercompare</base_uri><consumes>application/json,application/xml,text/xml</consumes><consumes_customized>false</consumes_customized><default_version>No active default version</default_version><doc_link/><enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl><is_versioned>false</is_versioned><name>HealthTrackerCompare</name><namespace>x_snc_ht</namespace><produces>application/json,application/xml,text/xml</produces><produces_customized>false</produces_customized><service_id>healthtrackercompare</service_id><short_description/><sys_class_name>sys_ws_definition</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-15 03:29:34</sys_created_on><sys_id>a6b5c053dbb3b340fb0283fb689619ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HealthTrackerCompare</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_ws_definition_a6b5c053dbb3b340fb0283fb689619ed</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-15 03:29:34</sys_updated_on></sys_ws_definition></record_update>]]></payload>
+<payload_hash>-1206225774</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>b578c4d3dbb3b340fb0283fb68961963</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d32f7f82f0000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table/>
+<target_name>HealthTrackerCompare</target_name>
+<type>Scripted REST API</type>
+<update_domain>global</update_domain>
+<update_guid>c5160453aab3b3409b1e00898ce20b01</update_guid>
+<update_guid_history>c5160453aab3b3409b1e00898ce20b01:-1206225774</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_ht_servicenow_instances_to_compare_user_password</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="user_password" table="x_snc_ht_servicenow_instances_to_compare"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>no_data_replicate=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>User Password</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>user_password</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="">password2</internal_type><mandatory>false</mandatory><max_length>255</max_length><name>x_snc_ht_servicenow_instances_to_compare</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-13 03:09:09</sys_created_on><sys_id>ea3e6de6dbf73340fb0283fb6896196d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User Password</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_dictionary_x_snc_ht_servicenow_instances_to_compare_user_password</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-13 03:09:09</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1209371077</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>b978c4d3dbb3b340fb0283fb6896195c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d2898901f0000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>ServiceNow Instances to Compare.User Password</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>663e6de631f73340a547624882701277</update_guid>
+<update_guid_history>663e6de631f73340a547624882701277:-1209371077</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_e4392526dbf73340fb0283fb689619d7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>read</operation><source_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-13 02:47:10</sys_created_on><sys_id>e4392526dbf73340fb0283fb689619d7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_user</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_scope_privilege_e4392526dbf73340fb0283fb689619d7</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-13 02:47:10</sys_updated_on><target_name>sys_user</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_db_object</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>1549360721</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>b978c4d3dbb3b340fb0283fb6896195f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d28846eb70000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table/>
+<target_name>sys_user</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>ec3925265cf73340ca4e5fe10f3d90d8</update_guid>
+<update_guid_history>ec3925265cf73340ca4e5fe10f3d90d8:1549360721</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_x_snc_ht_servicenow_instances_to_compare_sys_ref_list</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_ht_servicenow_instances_to_compare" version="2" view="sys_ref_list"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>instance</element><list_id display_value="x_snc_ht_servicenow_instances_to_compare" element="NULL" name="x_snc_ht_servicenow_instances_to_compare" parent="NULL" relationship="NULL" sys_domain="global" view="6250a0274f19bf404c9eac118110c779">66c8ab92dbb33340fb0283fb689619c0</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-12 17:26:09</sys_created_on><sys_id>aec8ab92dbb33340fb0283fb689619c0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-12 17:26:09</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_snc_ht_servicenow_instances_to_compare</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-12 17:26:09</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>66c8ab92dbb33340fb0283fb689619c0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ht_servicenow_instances_to_compare</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_ui_list_x_snc_ht_servicenow_instances_to_compare_sys_ref_list</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-12 17:26:09</sys_updated_on><sys_user/><view display_value="Reference List" name="sys_ref_list">6250a0274f19bf404c9eac118110c779</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>-2080334725</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>b978c4d3dbb3b340fb0283fb68961962</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d2682cf090000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>ServiceNow Instances to Compare</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid>26c8ab9222b3334035f80cbbb2e62bc2</update_guid>
+<update_guid_history>26c8ab9222b3334035f80cbbb2e62bc2:-2080334725,66c8ab92d8b333407595f32bc43f8a6a:1387265505</update_guid_history>
+<update_set display_value=""/>
+<view>sys_ref_list</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_ht_servicenow_instances_to_compare_instance</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="instance" table="x_snc_ht_servicenow_instances_to_compare"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Instance</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>true</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>instance</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_snc_ht_servicenow_instances_to_compare</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:00:06</sys_created_on><sys_id>70d2eb5edb733340fb0283fb6896194c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Instance</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_dictionary_x_snc_ht_servicenow_instances_to_compare_instance</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-12 17:25:45</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1092859861</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>bd78c4d3dbb3b340fb0283fb6896195b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d26826eda0000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>ServiceNow Instances to Compare.Instance</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>a8b82b92e9b333408df536fc5a655c1c</update_guid>
+<update_guid_history>a8b82b92e9b333408df536fc5a655c1c:-1092859861,b0d22f5e5a733340308f6f07e2d7bd6c:390169208</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_1e099cd2dbfb3b003f36d65fdf96193f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-12 02:18:28</sys_created_on><sys_id>1e099cd2dbfb3b003f36d65fdf96193f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ScriptableRESTMessageClient.setQueryParameter</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_scope_privilege_1e099cd2dbfb3b003f36d65fdf96193f</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-12 02:18:28</sys_updated_on><target_name>ScriptableRESTMessageClient.setQueryParameter</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>-880135131</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>bd78c4d3dbb3b340fb0283fb6896195e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d2564f4650000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table/>
+<target_name>ScriptableRESTMessageClient.setQueryParameter</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>16099cd261fb3b00f9ce42b069925d41</update_guid>
+<update_guid_history>16099cd261fb3b00f9ce42b069925d41:-880135131</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_939bdf1adb733340fb0283fb6896190b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 16:28:35</sys_created_on><sys_id>939bdf1adb733340fb0283fb6896190b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ht_servicenow_instances_to_compare.x_snc_ht.user</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_security_acl display_value="x_snc_ht_servicenow_instances_to_compare">5b9bdf1adb733340fb0283fb68961907</sys_security_acl><sys_update_name>sys_security_acl_role_939bdf1adb733340fb0283fb6896190b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 16:28:35</sys_updated_on><sys_user_role display_value="x_snc_ht.user" name="x_snc_ht.user">f6bc9fbc1bc4f340b759993d1d4bcbe2</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1598794961</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>bd78c4d3dbb3b340fb0283fb68961961</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d264e190a0000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>x_snc_ht_servicenow_instances_to_compare.x_snc_ht.user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>d79bdf1afb733340aa31e55ecbc8d50d</update_guid>
+<update_guid_history>d79bdf1afb733340aa31e55ecbc8d50d:-1598794961</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_ht_findings_instance_name</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="DELETE" element="instance_name" table="x_snc_ht_findings"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Instance Name</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>instance_name</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_snc_ht_findings</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-11 20:45:09</sys_created_on><sys_id>f3bc4b4edbb73b003f36d65fdf9619e5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Instance Name</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_dictionary_x_snc_ht_findings_instance_name</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-11 20:45:09</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>322367771</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>f17804d3dbb3b340fb0283fb6896190d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d267180e50000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_findings</table>
+<target_name>HealthScan Findings.instance_name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>b574a3def07333403d8eb68b06ecb91d</update_guid>
+<update_guid_history>b574a3def07333403d8eb68b06ecb91d:322367771,7fbc8b4eceb73b00a8b2f41de3fdb901:570773308</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_snc_ht_findings_instance_to_compare_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="instance_to_compare" label="Instance to Compare" language="en" table="x_snc_ht_findings"><sys_documentation action="INSERT_OR_UPDATE"><element>instance_to_compare</element><help/><hint/><label>Instance to Compare</label><language>en</language><name>x_snc_ht_findings</name><plural>Instance to Compares</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:11:29</sys_created_on><sys_id>6f65efdedb733340fb0283fb68961999</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Instance to Compare</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_documentation_x_snc_ht_findings_instance_to_compare_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:11:29</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1947395341</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>f178c4d3dbb3b340fb0283fb6896195d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d267561420000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_findings</table>
+<target_name>HealthScan Findings.Instance to Compare</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>3f65efde117333403932c3663d0488a7</update_guid>
+<update_guid_history>3f65efde117333403932c3663d0488a7:1947395341</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_539bdf1adb733340fb0283fb68961919</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_snc_ht_servicenow_instances_to_compare</description><name>x_snc_ht_servicenow_instances_to_compare</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 16:28:35</sys_created_on><sys_id>539bdf1adb733340fb0283fb68961919</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ht_servicenow_instances_to_compare</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_security_acl_539bdf1adb733340fb0283fb68961919</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 16:28:35</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>2115203119</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>f178c4d3dbb3b340fb0283fb68961960</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d264e19980000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>x_snc_ht_servicenow_instances_to_compare</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>df9bdf1a1073334034a0394e1ded201a</update_guid>
+<update_guid_history>df9bdf1a1073334034a0394e1ded201a:2115203119</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_ada26b5edb733340fb0283fb689619d5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="ada26b5edb733340fb0283fb689619d5" sys_domain="global" table="x_snc_ht_servicenow_instances_to_compare" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>instance</element><position>0</position><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-13 03:09:10</sys_created_on><sys_id>2a3e6de6dbf73340fb0283fb68961985</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_ht_servicenow_instances_to_compare" sys_domain="global" view="Default view">ada26b5edb733340fb0283fb689619d5</sys_ui_section><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-13 03:09:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>username</element><position>1</position><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-13 03:09:10</sys_created_on><sys_id>ae3e6de6dbf73340fb0283fb68961985</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_ht_servicenow_instances_to_compare" sys_domain="global" view="Default view">ada26b5edb733340fb0283fb689619d5</sys_ui_section><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-13 03:09:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>user_password</element><position>2</position><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-13 03:09:10</sys_created_on><sys_id>223e6de6dbf73340fb0283fb68961986</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_ht_servicenow_instances_to_compare" sys_domain="global" view="Default view">ada26b5edb733340fb0283fb689619d5</sys_ui_section><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-13 03:09:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_snc_ht_servicenow_instances_to_compare</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 16:59:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ada26b5edb733340fb0283fb689619d5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ht_servicenow_instances_to_compare</sys_name><sys_overrides/><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_ui_section_ada26b5edb733340fb0283fb689619d5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 16:59:19</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-58250474</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>f178c4d3dbb3b340fb0283fb68961963</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d289890540000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>ServiceNow Instances to Compare</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>663e6de6aaf733403490dc7bd0313187</update_guid>
+<update_guid_history>663e6de6aaf733403490dc7bd0313187:-58250474,f203239ed57333401f4bb38f572d794d:-621743704,b0d22f5ecf73334034f4c6b4c7d1ec72:-646215839,21a26b5e0d733340707c2adf1d1dd6d8:-1927102085</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_ht_servicenow_instances_to_compare_username</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="username" table="x_snc_ht_servicenow_instances_to_compare"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Username</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>username</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>100</max_length><name>x_snc_ht_servicenow_instances_to_compare</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:00:06</sys_created_on><sys_id>b0d22f5edb733340fb0283fb68961961</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Username</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_dictionary_x_snc_ht_servicenow_instances_to_compare_username</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:00:06</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>893023736</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>f578c4d3dbb3b340fb0283fb6896195c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d266af41a0000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>ServiceNow Instances to Compare.Username</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>38d22f5e667333403d98d60ff15aa46d</update_guid>
+<update_guid_history>38d22f5e667333403d98d60ff15aa46d:893023736</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_d62a4856dbbb3b003f36d65fdf9619e8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-12 01:13:28</sys_created_on><sys_id>d62a4856dbbb3b003f36d65fdf9619e8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ScriptableRESTMessageClient.setRequestHeader</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_scope_privilege_d62a4856dbbb3b003f36d65fdf9619e8</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-12 01:13:28</sys_updated_on><target_name>ScriptableRESTMessageClient.setRequestHeader</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>419292257</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>f578c4d3dbb3b340fb0283fb6896195f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d2564f4600000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table/>
+<target_name>ScriptableRESTMessageClient.setRequestHeader</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>162a485612bb3b00ddbfb8556ab62ce9</update_guid>
+<update_guid_history>162a485612bb3b00ddbfb8556ab62ce9:419292257</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_x_snc_ht_servicenow_instances_to_compare_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_ht_servicenow_instances_to_compare" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>instance</element><list_id display_value="x_snc_ht_servicenow_instances_to_compare" element="NULL" name="x_snc_ht_servicenow_instances_to_compare" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">49a8e792dbb33340fb0283fb68961976</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-12 17:25:30</sys_created_on><sys_id>81a8e792dbb33340fb0283fb68961977</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-12 17:25:30</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_snc_ht_servicenow_instances_to_compare</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-12 17:25:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>49a8e792dbb33340fb0283fb68961976</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ht_servicenow_instances_to_compare</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_ui_list_x_snc_ht_servicenow_instances_to_compare_null</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-12 17:25:30</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>-1404299119</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>f578c4d3dbb3b340fb0283fb68961962</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d268236f30000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>ServiceNow Instances to Compare</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid>89a8e79227b3334022609db2c50e4378</update_guid>
+<update_guid_history>89a8e79227b3334022609db2c50e4378:-1404299119,45922b5ee07333400704992d8ad769e6:9727983</update_guid_history>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_snc_ht_scan_instance_most_recent</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="most_recent" table="x_snc_ht_scan_instance"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;edge_encryption_enabled=true&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Most recent&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;false&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;most_recent&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_snc_ht_scan_instance&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;daniel.pettet&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-04-04 13:19:12&lt;/sys_created_on&gt;&lt;sys_id&gt;7238532a1bb83300b759993d1d4bcb1a&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Most recent&lt;/sys_name&gt;&lt;sys_package display_value="Health Tracker" source="x_snc_ht"&gt;22c176c31baf6700e1de11fc2d4bcb38&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Health Tracker"&gt;22c176c31baf6700e1de11fc2d4bcb38&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_snc_ht_scan_instance_most_recent&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;austin.buono&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-11 20:07:37&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-997418910</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>f978c4d3dbb3b340fb0283fb6896195b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d2564f3f00000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_scan_instance</table>
+<target_name>HealthScan Scan.Most recent</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>3124cb8231b73b0026250e5cd9e169f9</update_guid>
+<update_guid_history>3124cb8231b73b0026250e5cd9e169f9:-997418910,9847a0b1aabfb7004d5386f4b5fd4fd1:-1176697461,c82dca064737ff00fdef4809b1e18082:-997418910,8bcf14905f1bf300a4f4c33257c66014:-1176697461</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_1a2a4856dbbb3b003f36d65fdf9619e2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-12 01:13:28</sys_created_on><sys_id>1a2a4856dbbb3b003f36d65fdf9619e2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ScriptableRESTMessageClient.setEndpoint</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_scope_privilege_1a2a4856dbbb3b003f36d65fdf9619e2</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-12 01:13:28</sys_updated_on><target_name>ScriptableRESTMessageClient.setEndpoint</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>2118458749</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>f978c4d3dbb3b340fb0283fb6896195e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d2564f4500000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table/>
+<target_name>ScriptableRESTMessageClient.setEndpoint</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>562a485615bb3b0067d555f5046a60e4</update_guid>
+<update_guid_history>562a485615bb3b0067d555f5046a60e4:2118458749</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_1f9bdf1adb733340fb0283fb6896191b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 16:28:35</sys_created_on><sys_id>1f9bdf1adb733340fb0283fb6896191b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ht_servicenow_instances_to_compare.x_snc_ht.user</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_security_acl display_value="x_snc_ht_servicenow_instances_to_compare">539bdf1adb733340fb0283fb68961919</sys_security_acl><sys_update_name>sys_security_acl_role_1f9bdf1adb733340fb0283fb6896191b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 16:28:35</sys_updated_on><sys_user_role display_value="x_snc_ht.user" name="x_snc_ht.user">f6bc9fbc1bc4f340b759993d1d4bcbe2</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-2055126047</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>f978c4d3dbb3b340fb0283fb68961961</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d264e19b10000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>x_snc_ht_servicenow_instances_to_compare.x_snc_ht.user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>9b9bdf1afe733340b7a7d66612abb71d</update_guid>
+<update_guid_history>9b9bdf1afe733340b7a7d66612abb71d:-2055126047</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_snc_ht_servicenow_instances_to_compare_password_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation action="DELETE" element="password" label="Password" language="en" table="x_snc_ht_servicenow_instances_to_compare"><sys_documentation action="DELETE"><element>password</element><help/><hint/><label>Password</label><language>en</language><name>x_snc_ht_servicenow_instances_to_compare</name><plural>Passwords</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-12 17:01:03</sys_created_on><sys_id>be036f5edb733340fb0283fb689619d3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Password</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_documentation_x_snc_ht_servicenow_instances_to_compare_password_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-12 17:01:03</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>301154703</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>fd78c4d3dbb3b340fb0283fb6896195d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d289829fb0000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_servicenow_instances_to_compare</table>
+<target_name>ServiceNow Instances to Compare.password</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>502ee9e610f733407471e60893681ef0</update_guid>
+<update_guid_history>502ee9e610f733407471e60893681ef0:301154703,b203239e247333404a6c3748c49f524b:2094859839</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_9778e392dbb33340fb0283fb68961946</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>false</admin_overrides><advanced>false</advanced><condition/><description>Field is an allowed exception to the no-write.* rule.</description><name>x_snc_ht_findings.instance_to_compare</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>austin.buono</sys_created_by><sys_created_on>2019-09-12 17:24:50</sys_created_on><sys_id>9778e392dbb33340fb0283fb68961946</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_ht_findings.instance_to_compare</sys_name><sys_package display_value="Health Tracker" source="x_snc_ht">22c176c31baf6700e1de11fc2d4bcb38</sys_package><sys_policy/><sys_scope display_value="Health Tracker">22c176c31baf6700e1de11fc2d4bcb38</sys_scope><sys_update_name>sys_security_acl_9778e392dbb33340fb0283fb68961946</sys_update_name><sys_updated_by>austin.buono</sys_updated_by><sys_updated_on>2019-09-12 17:24:50</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1656405197</payload_hash>
+<remote_update_set display_value="HealthTrackerCompare_CoreChanges">b17804d3dbb3b340fb0283fb6896190c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>austin.buono</sys_created_by>
+<sys_created_on>2019-09-15 03:39:59</sys_created_on>
+<sys_id>fd78c4d3dbb3b340fb0283fb68961960</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d268199120000001</sys_recorded_at>
+<sys_updated_by>austin.buono</sys_updated_by>
+<sys_updated_on>2019-09-15 03:39:59</sys_updated_on>
+<table>x_snc_ht_findings.instance_to_compare</table>
+<target_name>x_snc_ht_findings.instance_to_compare</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>5b78e392fcb33340ec4affca3c40d748</update_guid>
+<update_guid_history>5b78e392fcb33340ec4affca3c40d748:1656405197</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
